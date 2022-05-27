@@ -1,0 +1,52 @@
+#l2qr-calendar {
+    border-radius: 2px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 2px 2px 3px 1px rgba(90, 110, 135, 0.527);
+}
+
+.calendar-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.calendar-nav>select {
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: rgba(46, 46, 46, 0.799);
+    border-color: rgba(114, 114, 114, .5);
+    border-radius: 3px;
+    padding: 3px;
+}
+
+#calendar-table-header>td {
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: rgba(46, 46, 46, 0.799);
+    text-align: center;
+}
+
+.dayBtn {
+    font-size: 0.75rem;
+    font-family: sans-serif;
+    color: rgba(46, 46, 46, 0.799);
+    text-align: center;
+    line-height: 1.9rem;
+    width: 33px;
+    height: 33px;
+    border-radius: 16.5px;
+    border-width: 1px;
+    border-color: rgba(85, 85, 85, 0.1);
+    background-color: white;
+    transition: border-color .6s;
+}
+
+.dayBtn.active {
+    color: white;
+    background-color: rgba(75, 90, 100, 0.86);
+}
+
+.dayBtn:hover {
+    border-color: rgba(114, 114, 114, 0.75);
+}
