@@ -48,7 +48,6 @@ class Calendar {
         stylesheet.rel = 'stylesheet';
         stylesheet.href = path;
         document.head.appendChild(stylesheet);
-
     }
 
     setNewDate(dateString) {

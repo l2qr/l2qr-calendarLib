@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.ino": "cpp",
+			"array": "cpp",
+			"*.tcc": "cpp",
+			"functional": "cpp",
+			"memory": "cpp",
+			"tuple": "cpp",
+			"limits": "cpp",
+			"ostream": "cpp",
+			"numeric": "cpp",
+			"ranges": "cpp",
+			"streambuf": "cpp",
+			"utility": "cpp"
+		}
+	}
+}
