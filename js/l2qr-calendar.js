@@ -40,6 +40,7 @@ class Calendar {
         this.setNewDate(dateString);
         this.currentDate = new Date(Date.now());
         this.createCalendar();
+
     }
 
     addStyles(path) {
